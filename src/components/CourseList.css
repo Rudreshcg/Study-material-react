@@ -1,0 +1,32 @@
+body {
+    background-color: #4c4a4a;
+}
+
+.course-list {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.course-list li {
+    padding: 12px 120px 12px 120px;
+    background-color: #6AA959;
+    border-radius: 14px;
+    margin: 20px;
+}
+
+.course-header {
+    background-color: #deaa3d;
+    text-align: center;
+    /* width: 120px; */
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.course-container {
+    text-align: center;
+    padding-top: 35px;
+
+}

@@ -1,0 +1,41 @@
+.header-list {
+    display: flex;
+    list-style: none;
+    /* background-color: aqua; */
+    margin: 20px;
+    right: 0px;
+}
+
+.header nav {
+    display: flex;
+    position: relative;
+
+}
+
+.header-container {
+    background-color: #6AA959;
+    padding: 1px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+
+.custom-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+    .header-list li {
+        display: none;
+
+    }
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* #deaa3d */
